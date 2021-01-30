@@ -4,17 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/asset/2.css" />
+    <style>
+      #container1 input {
+        display: block;
+        margin: 5px 0px 5px;
+      }
+
+      #container2 h1 {
+        display: inline-block;
+        margin: 5px 0px 5px;
+        width: 500px;
+        text-align: center;
+      }
+
+      #container3 P {
+        display: inline;
+        margin: 5px 0px 5px;
+      }
+    </style>
   </head>
   <body>
-    <div style="display: box">
-      <div id="one">
-        <div id="two">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatum magnam, dolore
-          dignissimos expedita vero voluptate inventore tempora fuga, minima corporis quae molestias
-          asperiores omnis culpa est porro voluptates fugiat!
-        </div>
-      </div>
+    <div id="container1">
+      <p>Block</p>
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+    </div>
+    <hr />
+    <div id="container2">
+      <p>IN-Block</p>
+      <h1>2212133121</h1>
+      123123123
+      <span>132123312</span>
+    </div>
+    <hr />
+    <div id="container3">
+      <p>inline</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
     </div>
   </body>
 </html>

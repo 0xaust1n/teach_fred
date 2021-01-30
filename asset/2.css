@@ -1,15 +1,19 @@
-#one {
-  background-color: red;
-  width: 500px;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-#two {
-  background: blue;
-  color: white;
-  width: 480;
-  margin: 0px 10px 0px;
+body #test {
+  background-color: #00ff00;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
 }
 
-#THREE {
-  color: #0000ff;
+#test2 {
+  background-color: #00aa00;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
 }
