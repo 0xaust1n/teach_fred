@@ -7,6 +7,8 @@
 
 `inline style  > ID > Class > Element > *`
 
+`!important` 為例外狀況 他為最大權限
+
 **權重處理順序**
 
 相同權重 : 後者會覆蓋前者

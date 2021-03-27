@@ -13,8 +13,12 @@ Weekly Document Below
   - [Day 3](./docs/days_3.md)
 
 - Day4
-  - [Day_4](./docs/days_4.md)
+  - [Day4](./docs/days_4.md)
   - [gird](./src/gird.html)
+
+- Day5
+  - [Day 5](./docs/days_5.md)
+  - [rwd](./src/3.html)
 
 - Extra (Homework)
   - [Hw 1](./homework/hw1.html)
