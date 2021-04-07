@@ -3,6 +3,10 @@
 	margin: 0px;
 }
 
+/* .wrapper {
+	min-width: 1280px;
+} */
+
 .container {
 	display: flex;
 }
@@ -14,9 +18,15 @@
 .logo {
 	margin-right: 20px;
 	width: 20%;
+	height: 100%;
 	text-align: center;
 }
 
+.bar {
+	height: 100%;
+	width: 70%;
+	display: flex;
+}
 .nav {
 	height: 100%;
 	font-size: 16px;
@@ -84,13 +94,6 @@ td {
 	border-collapse: collapse;
 	padding: 10px;
 }
-
-/* .table td {
-	padding-left: 25px;
-	padding-right: 100px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-} */
 
 .footer {
 	position: fixed;
